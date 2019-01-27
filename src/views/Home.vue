@@ -1,13 +1,13 @@
 <template>
-  <HelloWorld />
+  <CardMenu />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import CardMenu from '../components/CardMenu'
 
   export default {
     components: {
-      HelloWorld
+      CardMenu
     }
   }
 </script>
