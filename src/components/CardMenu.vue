@@ -25,7 +25,7 @@
             </div>
           </v-card-title>
           <v-card-actions>
-            <v-btn flat color="orange">見る</v-btn>
+            <v-btn outline="" color="orange" :href="sample.href">見る</v-btn>
           </v-card-actions>
         </v-card>
       </v-flex>

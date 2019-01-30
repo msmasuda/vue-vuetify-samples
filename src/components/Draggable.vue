@@ -2,7 +2,7 @@
   <v-layout justify-start row>
     <draggable :options="{ group: 'tasks' }"
       element="div"
-      class="column pa-5"
+      class="pa-5"
       v-for="(list, key, index) in tasks" :key="index">
         <v-card v-for="(item, key, index) in list" :key="index" class="pa-2">
           <v-card-title>
@@ -11,7 +11,7 @@
             </div>
           </v-card-title>
           <v-card-actions>
-            <v-btn flat color="orange">見る</v-btn>
+            <v-btn outline color="orange" href="/DraggableSample">見る</v-btn>
           </v-card-actions>
         </v-card>
     </draggable>

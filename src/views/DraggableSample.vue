@@ -1,7 +1,5 @@
 <template>
-  <div class="home">
-    <Draggable />
-  </div>
+  <Draggable />
 </template>
 
 <script>
@@ -17,7 +15,4 @@ export default {
 </script>
 
 <style scoped>
-.home {
-  margin: 40px;
-}
 </style>
