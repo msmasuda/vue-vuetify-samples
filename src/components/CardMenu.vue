@@ -5,7 +5,7 @@
         <v-card>
           <v-img
             class="white--text"
-            height="300px"
+            height="200px"
             :src="sample.image"
           >
             <v-container fill-height fluid>
@@ -40,7 +40,7 @@
         {
           headline: 'GoogleMapサンプル',
           title: 'GoogleMapサンプル',
-          href: 'https://github.com/vuetifyjs/vuetify-loader',
+          href: '',
           image: 'https://cdn.vuetifyjs.com/images/cards/desert.jpg',
           description1: '美容院・理髪店などでの予約からアフターフォローまで',
           description2: '整備工場・ガソリンスタンドなどでの入庫予約から納車後のフォローまで',
@@ -56,13 +56,13 @@
           description3: 'ドラッグ＆ドロップで情報のステータスや担当者を変更出来ます。'
         },
         {
-          headline: 'Trello風な案件管理',
-          title: 'Trello風な案件管理',
-          href: 'https://github.com/vuetifyjs/vuetify-loader',
+          headline: '仲間・グループ向けイベント管理',
+          title: '仲間・グループ向けイベント管理',
+          href: '/GroupMeetingSample',
           image: 'https://cdn.vuetifyjs.com/images/cards/docks.jpg',
-          description1: '美容院・理髪店などでの予約からアフターフォローまで',
-          description2: '整備工場・ガソリンスタンドなどでの入庫予約から納車後のフォローまで',
-          description3: 'ドラッグ＆ドロップで情報のステータスや担当者を変更出来ます。'
+          description1: 'イベント情報を参加メンバーに送付、参加状況を記入してもらう',
+          description2: '参加メンバー間でチャットが可能になる',
+          description3: '地図表示で参加メンバーの位置が確認できる'
         }
       ]
     })

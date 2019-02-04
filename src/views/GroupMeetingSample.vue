@@ -7,7 +7,7 @@
 import Draggable from '@/components/Draggable.vue'
 
 export default {
-  name: 'DraggableSample',
+  name: 'GroupMeetingSample',
   components: {
     Draggable
   }

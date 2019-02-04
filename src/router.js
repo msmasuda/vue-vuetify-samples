@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import DraggableSample from './views/DraggableSample.vue'
+import GroupMeetingSample from './views/GroupMeetingSample.vue'
 
 Vue.use(Router)
 
@@ -18,6 +19,11 @@ export default new Router({
       path: '/DraggableSample',
       name: 'draggable_sample',
       component: DraggableSample
+    },
+    {
+      path: '/GroupMeetingSample',
+      name: 'group_meeting_sample',
+      component: GroupMeetingSample
     },
     {
       path: '/about',
